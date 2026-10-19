@@ -1,0 +1,4 @@
+# Humans and agents are both welcome.
+# Agent-readable versions of this site: /llms.txt, /llms-full.txt, /resume.json
+User-agent: *
+Allow: /

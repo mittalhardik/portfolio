@@ -1,0 +1,359 @@
+{
+  "$schema": "https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json",
+  "basics": {
+    "name": "Hardik Mittal",
+    "label": "Associate Product Manager · Product & AI Builder",
+    "email": "hardik96m@gmail.com",
+    "summary": "Product manager who writes the code. Builds GenAI content platforms, personalization, experimentation and analytics systems for Aditya Birla Fashion's D2C brands at TMRW. Open to product management and forward-deployed engineering roles.",
+    "location": {
+      "city": "Bengaluru",
+      "countryCode": "IN"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "hardikmittal14",
+        "url": "https://www.linkedin.com/in/hardikmittal14/"
+      },
+      {
+        "network": "GitHub",
+        "username": "mittalhardik",
+        "url": "https://github.com/mittalhardik"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "TMRW House of Brands",
+      "description": "Aditya Birla Fashion's house of D2C brands: Bewakoof, Nobero, TIGC, Wrogn",
+      "position": "Associate Product Manager",
+      "location": "Bengaluru",
+      "startDate": "2025-11",
+      "summary": "Homepage, checkout and personalization for Bewakoof.com (~200K daily sessions); GenAI content platforms and analytics across the brands. Promoted from Product Management Intern (Jul 2024 to Oct 2025).",
+      "highlights": [
+        "Shipped GoKwik Checkout: +10.5% lift in session conversion",
+        "Work directly with brand and merchandising teams: build the tools they use and improve storefronts from their requirements and feedback",
+        "Led Dynamic Homepage across six audience pages: +13.8% tap rate and +5.4% homepage-to-order conversion in a live test",
+        "Led the 0-to-1 C&C Platform, an enterprise GenAI content engine (brand-context retrieval, multi-model generation, tiered evaluation, human review)",
+        "Launched WhyBuy: AI product imagery and video on 2,000+ products across six brands",
+        "Built Helios, a multi-brand analytics platform with an MCP server for plain-English queries, and Homepage Lens",
+        "Built and run the experimentation program: 30+ A/B tests across four brand stores on GrowthBook"
+      ]
+    },
+    {
+      "name": "TMRW House of Brands",
+      "position": "Product Management Intern",
+      "location": "Bengaluru",
+      "startDate": "2024-07",
+      "endDate": "2025-10",
+      "highlights": [
+        "Revamped the Bewakoof.com homepage with Reels-style navigation, Stories and personalized collection shelves",
+        "Shipped Urbano product-page offer visibility and cross-category recommendations, lifting AOV by 6.5%",
+        "Built a RAG-based PM copilot and the Gemini content pipeline that became WhyBuy"
+      ]
+    },
+    {
+      "name": "Hyphen SCS",
+      "description": "Warehousing and supply-chain startup",
+      "position": "Product Management Intern",
+      "location": "Noida",
+      "startDate": "2023-05",
+      "endDate": "2023-11",
+      "highlights": [
+        "Co-led a warehouse management app from Figma design to FlutterFlow and Firebase build"
+      ]
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "Entrepreneurship Cell, BITS Hyderabad",
+      "position": "Vice President; Operations Head, Launchpad 2024",
+      "startDate": "2023-08",
+      "endDate": "2024-08",
+      "summary": "Led 120+ associates across 12 teams for a national E-Summit with 7,000+ attendees and 20+ events"
+    },
+    {
+      "organization": "The Wall Street Club, BITS Hyderabad",
+      "position": "Secretary",
+      "startDate": "2023-06",
+      "endDate": "2024-08",
+      "summary": "Led 50+ associates; case competitions with 2,500+ registrations; GenAI analytics challenge"
+    },
+    {
+      "organization": "BITSMUN Society",
+      "position": "Sponsorship Head & Tech Lead",
+      "startDate": "2022-08",
+      "endDate": "2023-05",
+      "summary": "Led 10 associates; raised INR 1.2 lakh+ from eight partners"
+    }
+  ],
+  "education": [
+    {
+      "institution": "BITS Pilani, Hyderabad Campus",
+      "area": "Computer Science (Minor in Finance)",
+      "studyType": "B.E. (Hons.)",
+      "startDate": "2021-10",
+      "endDate": "2025-05"
+    },
+    {
+      "institution": "Disha Delphi Public School, Kota",
+      "studyType": "Class XII (CBSE)",
+      "startDate": "2017",
+      "endDate": "2021",
+      "score": "92.8%",
+      "courses": [
+        "IIT-JEE 2021: AIR 8819 (top 0.5 percentile)",
+        "BITSAT 2021: 319/450"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Deal Flow & Portfolio Intelligence",
+      "startDate": "2026-06",
+      "endDate": "2026-07",
+      "description": "Pitch triage and portfolio P&L analysis for a VC firm, with a remote MCP server (OAuth 2.1)",
+      "keywords": [
+        "FastAPI",
+        "Next.js",
+        "Supabase",
+        "Gemini",
+        "MCP"
+      ]
+    },
+    {
+      "name": "ABF T-Shirt Studio",
+      "startDate": "2026-07",
+      "endDate": "2026-08",
+      "description": "AI t-shirt design and ordering app for a corporate event with a real-time print queue; shipped in three weeks, 500+ orders, 1,000+ concurrent users",
+      "keywords": [
+        "Next.js",
+        "Supabase",
+        "OpenAI Images",
+        "Cloud Run"
+      ]
+    },
+    {
+      "name": "Shunya Virtual Jury",
+      "startDate": "2026-07",
+      "endDate": "2026-08",
+      "description": "Voice AI judge for a live awards show",
+      "keywords": [
+        "Claude",
+        "Deepgram",
+        "ElevenLabs",
+        "WebSockets"
+      ]
+    },
+    {
+      "name": "Spotify Chains",
+      "startDate": "2026-10",
+      "description": "Auto-creates Spotify playlists from songs that keep playing without a manual pick",
+      "url": "https://github.com/mittalhardik/spotify-chains",
+      "keywords": [
+        "Cloudflare Workers",
+        "D1",
+        "TypeScript"
+      ]
+    },
+    {
+      "name": "Agentic Creative Generator",
+      "startDate": "2026-08",
+      "description": "Human-in-the-loop art-director agent for ad creatives",
+      "keywords": [
+        "Gemini",
+        "Multimodal embeddings"
+      ]
+    },
+    {
+      "name": "PDP Story Pipeline",
+      "startDate": "2026",
+      "description": "Shopify product to 10-frame editorial product-page story",
+      "keywords": [
+        "Python",
+        "GPT-Image",
+        "Gemini"
+      ]
+    },
+    {
+      "name": "Elsewhere",
+      "startDate": "2026",
+      "description": "Personal photo journal linking a timeline to a map",
+      "keywords": [
+        "Node.js",
+        "MapLibre"
+      ]
+    },
+    {
+      "name": "netsandbox",
+      "startDate": "2026",
+      "description": "Network-isolated containers on macOS",
+      "keywords": [
+        "Docker",
+        "Colima",
+        "iptables"
+      ]
+    },
+    {
+      "name": "Creative Suite",
+      "startDate": "2026-04",
+      "description": "Multi-tenant content SaaS prototype",
+      "keywords": [
+        "NestJS",
+        "LangGraph",
+        "pgvector"
+      ]
+    },
+    {
+      "name": "Influencer Platform",
+      "startDate": "2025-12",
+      "description": "TIGC influencer marketplace and admin dashboard",
+      "keywords": [
+        "Flask",
+        "Supabase"
+      ]
+    },
+    {
+      "name": "BK Page Builder",
+      "startDate": "2025-08",
+      "description": "Drag-and-drop app page editor with live preview",
+      "keywords": [
+        "React",
+        "Vite",
+        "Tailwind"
+      ]
+    },
+    {
+      "name": "RAG PM Copilot",
+      "startDate": "2025-07",
+      "description": "AI assistant for PRD writing and review",
+      "keywords": [
+        "React",
+        "Node.js",
+        "Vertex AI"
+      ]
+    },
+    {
+      "name": "Music Link Converter",
+      "startDate": "2025-08",
+      "description": "Converts links between Spotify and YouTube Music",
+      "url": "https://github.com/mittalhardik/Music-Link-Convertor",
+      "keywords": [
+        "Node.js",
+        "Express"
+      ]
+    },
+    {
+      "name": "Daktari Direct",
+      "startDate": "2024-07",
+      "description": "Freelance healthcare assistant app for a US-based client serving East Africa",
+      "keywords": [
+        "FlutterFlow",
+        "Supabase",
+        "OpenAI"
+      ]
+    },
+    {
+      "name": "Athlytix",
+      "startDate": "2023-07",
+      "endDate": "2024-01",
+      "description": "Sports academy management and single-camera player tracking (founding team)",
+      "keywords": [
+        "OpenCV"
+      ]
+    }
+  ],
+  "skills": [
+    {
+      "name": "Product",
+      "keywords": [
+        "Product strategy",
+        "Roadmaps",
+        "PRDs",
+        "GTM",
+        "A/B testing",
+        "GrowthBook",
+        "Funnel analysis",
+        "Personalization"
+      ]
+    },
+    {
+      "name": "Languages",
+      "keywords": [
+        "TypeScript",
+        "JavaScript",
+        "Python",
+        "SQL"
+      ]
+    },
+    {
+      "name": "Applications",
+      "keywords": [
+        "Next.js",
+        "React",
+        "Node.js",
+        "Fastify",
+        "FastAPI",
+        "Docker"
+      ]
+    },
+    {
+      "name": "Data",
+      "keywords": [
+        "PostgreSQL",
+        "pgvector",
+        "Supabase",
+        "Redis",
+        "ClickHouse",
+        "BigQuery",
+        "Cube.js",
+        "GA4",
+        "Metabase"
+      ]
+    },
+    {
+      "name": "AI",
+      "keywords": [
+        "Gemini",
+        "Claude",
+        "GPT-Image",
+        "Veo",
+        "RAG",
+        "Embeddings",
+        "MCP",
+        "AI agents",
+        "LLM evaluation"
+      ]
+    },
+    {
+      "name": "Cloud",
+      "keywords": [
+        "AWS",
+        "GCP Cloud Run",
+        "Vertex AI",
+        "Cloudflare Workers",
+        "GitHub Actions"
+      ]
+    }
+  ],
+  "interests": [
+    {
+      "name": "Music"
+    },
+    {
+      "name": "Photography and travel"
+    },
+    {
+      "name": "Architecture"
+    },
+    {
+      "name": "Markets"
+    },
+    {
+      "name": "Startups"
+    }
+  ],
+  "meta": {
+    "lastModified": "2026-10-19"
+  }
+}

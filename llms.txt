@@ -1,0 +1,26 @@
+# Hardik Mittal
+
+> Associate Product Manager at TMRW House of Brands (Aditya Birla Fashion's house of D2C fashion brands: Bewakoof, Nobero, TIGC, Wrogn), based in Bengaluru, India. A product manager who also writes the code: GenAI content platforms, personalization, experimentation and analytics systems, plus side projects. Open to product management and forward-deployed engineering conversations.
+
+Contact: hardik96m@gmail.com · LinkedIn: https://www.linkedin.com/in/hardikmittal14/ · GitHub: https://github.com/mittalhardik
+
+## Full profile
+
+- [Full profile in Markdown](llms-full.txt): everything on the site as plain text (roles, case studies, all projects, skills, education)
+- [Structured resume (JSON Resume schema)](resume.json): machine-readable work history, projects and skills
+
+## Resumes
+
+- [Resume, product version (PDF)](Hardik_Mittal_Product.pdf): product ownership, growth experiments, personalization, AI workflow design
+- [Resume, engineering version (PDF)](Hardik_Mittal_AI_FDE.pdf): architecture, integrations, deployment and data systems
+
+## Key facts
+
+- Current role: Associate Product Manager, TMRW House of Brands, Nov 2025 to present (promoted from Product Management Intern, Jul 2024 to Oct 2025); works directly with brand and merchandising teams, building their tools and improving storefronts from their feedback
+- Education: B.E. (Hons.) Computer Science, Minor in Finance, BITS Pilani Hyderabad Campus, 2021 to 2025; Disha Delphi Public School, Kota, 2017 to 2021 (IIT-JEE 2021 AIR 8819, top 0.5 percentile; BITSAT 319/450; Class XII CBSE 92.8%)
+- Headline results: GoKwik Checkout, +10.5% session conversion on Bewakoof.com; Dynamic Homepage, +13.8% tap rate and +5.4% homepage-to-order conversion in a live test; Urbano product-page work, +6.5% AOV; WhyBuy AI content live on 2,000+ products across six brands; ABF T-Shirt Studio shipped in three weeks with 500+ orders and 1,000+ concurrent users; 30+ A/B tests across four brand stores on GrowthBook
+- Core stack: TypeScript, Python, SQL, Next.js, FastAPI, PostgreSQL/pgvector, BigQuery, ClickHouse, AWS, GCP, Gemini, Claude, GPT-Image, MCP, RAG
+
+## Optional
+
+- [Human-readable site](index.html)

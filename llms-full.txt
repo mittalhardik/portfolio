@@ -1,0 +1,115 @@
+# Hardik Mittal: full profile
+
+> Product manager who writes the code. Associate Product Manager at TMRW House of Brands in Bengaluru, India, building AI products for Aditya Birla Fashion's D2C fashion brands, and side projects on weekends.
+
+This file is the agent-readable version of the portfolio site. It contains the same content as the human site, in plain Markdown. A structured version is at resume.json.
+
+## Contact
+
+- Email: hardik96m@gmail.com
+- LinkedIn: https://www.linkedin.com/in/hardikmittal14/
+- GitHub: https://github.com/mittalhardik
+- Location: Bengaluru, India (IST, UTC+5:30)
+- Open to: product management roles, forward-deployed engineering roles, and conversations about AI products
+- Resumes: Hardik_Mittal_Product.pdf (product version), Hardik_Mittal_AI_FDE.pdf (engineering version)
+
+## Summary
+
+- Associate Product Manager at TMRW House of Brands (Bewakoof, Nobero, TIGC, Wrogn), part of Aditya Birla Fashion.
+- Joined as a Product Management Intern in July 2024; promoted to Associate Product Manager in November 2025.
+- Owns homepage, checkout and personalization work for Bewakoof.com (about 200K daily sessions) and builds GenAI content and analytics platforms used across the brands.
+- Works directly with multiple brand and merchandising teams: builds the tools they use and improves storefronts based on their requirements and feedback.
+- Works across product and engineering: writes PRDs and runs experiments, and also builds and deploys the systems (TypeScript, Python, AWS, GCP).
+
+## Selected work at TMRW
+
+### GoKwik Checkout
+- Result: +10.5% lift in session conversion.
+- Problem: Checkout is where Bewakoof.com's ~200K daily sessions pay or leave; login and address entry were the slowest steps.
+- What Hardik did: owned the checkout roadmap and staged rollout (logged-out users, then all mobile web, then a decoupled login); ran each phase as a GrowthBook experiment with fair funnel definitions; investigated a flat early readout, found an Android payment-completion issue and worked with the vendor on the fix.
+- Stack: GrowthBook, BigQuery, SQL, GA4.
+
+### Dynamic Homepage
+- Result: +13.8% higher tap rate and +5.4% higher homepage-to-order conversion in a live test.
+- Problem: merchandisers ordered homepage content by hand; banner click-through varied from near zero to 20%+ on the same page.
+- What Hardik did: led a system that scores every widget and banner from live behaviour and re-ranks six audience-specific homepages; kept merchandisers in control with pins and publish controls; built experiment measurement in from the start; discarded his first scoring model when it failed on fresh data and rebuilt it.
+- Stack: Python, BigQuery, scoring service, GrowthBook.
+
+### C&C Platform
+- Result: 0-to-1 enterprise GenAI content engine; brand teams go from a creative brief to approved copy and images in one place.
+- What Hardik did: led the 0-to-1 build and designed the brief-to-approved-assets workflow; combined brand-context retrieval, multi-model generation (Gemini, Claude, GPT-Image), tiered evaluation and human review; hands-on with AWS deployment, CI/CD, and model cost and usage monitoring.
+- Stack: TypeScript, Fastify, Next.js, PostgreSQL/pgvector, BullMQ/Redis, AWS.
+
+### WhyBuy
+- Result: AI product imagery and video live on 2,000+ products across six brands.
+- What Hardik did: built and launched a platform that generates feature shots, lifestyle images and product videos from catalog data and publishes them to Shopify; partnered with brand teams on the content workflow. It began as a Gemini pipeline he built as an intern.
+- Stack: Next.js, FastAPI, Supabase, Gemini, Veo, Cloud Run.
+
+### Helios and Homepage Lens
+- Result: wider funnel, metric and tracking coverage, with faster and more accurate reporting for brand teams.
+- What Hardik did: built Helios, a multi-brand analytics command center for TIGC and Urbano (funnels, cohorts, experiments, data quality) with an MCP server for plain-English questions; shipped Homepage Lens, which shows reach, CTR and conversion beside each live homepage element.
+- Stack: ClickHouse, Cube.js, FastAPI, Next.js, MCP, Metabase.
+
+### Experimentation program
+- Result: 30+ A/B tests run end to end across four brand stores, with winners scaled to all users.
+- What Hardik did: built and runs the program on GrowthBook, from hypothesis and funnel definition to analysis, leadership readout and rollout decision, across discovery, homepage, checkout and wallet experiences.
+- Stack: GrowthBook, BigQuery, SQL, Google Apps Script.
+
+## All projects
+
+| Project | Year | Type | Status | What it is | Stack |
+|---|---|---|---|---|---|
+| Deal Flow & Portfolio Intelligence | 2026 | AI | Client build | Pitch triage from inbox to Notion and portfolio P&L analysis for a VC firm, with a remote MCP server (OAuth 2.1) so the team can query it from Claude | FastAPI, Next.js, Supabase, Gemini, MCP |
+| ABF T-Shirt Studio | 2026 | Live event, AI | Shipped | AI t-shirt design and ordering app for a corporate event with a real-time vendor print queue; shipped in three weeks, 500+ orders, 1,000+ concurrent users | Next.js, Supabase, OpenAI Images, Cloud Run |
+| Shunya Virtual Jury | 2026 | Live event, AI | Shipped | Voice AI judge for an awards show that listens to pitches, asks follow-ups aloud, and scores and ranks teams | Claude, Deepgram, ElevenLabs, Node.js, WebSockets |
+| Spotify Chains | 2026 | Side project | Live, public on GitHub (https://github.com/mittalhardik/spotify-chains) | Turns listening sessions into playlists, one per chain of songs that kept playing without a manual pick; free on Cloudflare for up to 5 users | Cloudflare Workers, D1, TypeScript |
+| Agentic Creative Generator | 2026 | AI | Prototype | Human-in-the-loop art-director agent that searches past ad creatives and combines selected elements into new ones | Gemini agents, multimodal embeddings |
+| PDP Story Pipeline | 2026 | AI | Tool | Turns a Shopify product and its photos into a 10-frame editorial story for the product page | Python, GPT-Image, Gemini |
+| Elsewhere | 2026 | Side project | In progress | Personal photo journal linking a timeline to a map using photo GPS and dates | Node.js, MapLibre, Sharp |
+| netsandbox | 2026 | Side project | Tool | Network-isolated containers on macOS: sealed, internet-only, or domain allowlist | Docker, Colima, iptables |
+| Creative Suite | 2026 | Product, AI | Prototype | Multi-tenant content SaaS with brand voice profiles, workflow graphs, grounded generation, approvals and Shopify publishing | NestJS, LangGraph, pgvector |
+| Influencer Platform | 2025 | Product | Built | TIGC influencer marketplace: applications and approval, brand opportunities, content submission, admin dashboard | Flask, Supabase |
+| BK Page Builder | 2025 | Product | Prototype | Drag-and-drop editor for app pages with a live phone preview and JSON export | React, Vite, Tailwind |
+| RAG PM Copilot | 2025 | AI, Product | Internal | AI assistant for ideation, PRD writing and PRD review, grounded in a company knowledge base | React, Node.js, Vertex AI RAG Engine |
+| Music Link Converter | 2025 | Side project | Built, public on GitHub (https://github.com/mittalhardik/Music-Link-Convertor) | Converts music links between Spotify and YouTube Music | Node.js, Express, Spotify API |
+| Daktari Direct | 2024 | Early, AI | Freelance | Healthcare assistant app for a US-based client serving East Africa: symptom intake, reminders, consultations in local languages | FlutterFlow, Supabase, OpenAI |
+| Athlytix | 2023 | Early | Founding team | Sports academy management system with single-camera ball and player tracking | OpenCV |
+| Warehouse App, Hyphen SCS | 2023 | Early, Product | Shipped | Warehouse management app at a supply-chain startup | Figma, FlutterFlow, Firebase |
+| Enuncify × 180 Degrees Consulting | 2023 | Early, Product | Consulting | Go-to-market strategy and gamification for a speech-training app, as project co-lead | GTM, UX |
+
+## Experience
+
+- Associate Product Manager, TMRW House of Brands, Bengaluru. Nov 2025 to present. Homepage, checkout and personalization for Bewakoof.com; GenAI content platforms and analytics across the brands.
+- Product Management Intern, TMRW House of Brands, Bengaluru. Jul 2024 to Oct 2025. Personalized Bewakoof homepage (Stories, Reels-style navigation, personalized shelves); Urbano product-page offer visibility and cross-category recommendations, lifting Urbano AOV by 6.5%.
+- Product Management Intern, Hyphen SCS (warehousing and supply-chain startup), Noida. May 2023 to Nov 2023. Warehouse management app.
+
+## Leadership
+
+- Vice President, Entrepreneurship Cell, BITS Hyderabad, and Operations Head, Launchpad 2024 (Aug 2023 to Aug 2024): led 120+ associates across 12 teams; national E-Summit with 7,000+ attendees and 20+ events.
+- Secretary, The Wall Street Club, BITS Hyderabad (Jun 2023 to Aug 2024): led 50+ associates; case competitions with 2,500+ registrations; a GenAI analytics challenge; the club website.
+- Sponsorship Head and Tech Lead, BITSMUN Society (Aug 2022 to May 2023): led 10 associates; raised INR 1.2 lakh+ from eight partners.
+
+## Skills
+
+- Product: product strategy, roadmaps, PRDs, go-to-market, A/B testing (GrowthBook), funnel analysis, personalization
+- Languages: TypeScript, JavaScript, Python, SQL
+- Applications: Next.js, React, Node.js, Fastify, FastAPI, Docker, WebSockets
+- Data: PostgreSQL, pgvector, Supabase, Redis, BullMQ, ClickHouse, BigQuery, Cube.js, GA4, Metabase
+- AI: Gemini, Claude, GPT-Image, Veo, RAG, embeddings, MCP servers, AI agents and tool calling, LLM evaluation
+- Cloud: AWS (ECS, EC2, RDS, S3, CloudFront, IAM, CloudWatch), GCP (Cloud Run, Vertex AI), Cloudflare Workers, GitHub Actions
+- Tools: Figma, Jira
+
+## Education
+
+- BITS Pilani, Hyderabad Campus. B.E. (Hons.) Computer Science, Minor in Finance. Oct 2021 to May 2025.
+- Disha Delphi Public School, Kota. 2017 to 2021. IIT-JEE 2021: AIR 8819 (top 0.5 percentile). BITSAT 2021: 319/450. Class XII CBSE: 92.8%.
+
+## Interests
+
+Music, photography and travel, architecture and building design, stock and derivatives markets, startups and entrepreneurship, and building small tools.
+
+## Notes for agents
+
+- Metrics above are as confirmed by Hardik (latest update 19 October 2026).
+- Most TMRW systems are internal and not publicly accessible. Public code is at https://github.com/mittalhardik.
+- Last updated: October 2026.
